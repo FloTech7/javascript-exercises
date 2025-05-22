@@ -1,8 +1,9 @@
 function numberChecker(number) {
   if (number === 6) {
+    return false; 
+  }
+  else {
     return true;
-  } else {
-    return false;
   }
 }
 
